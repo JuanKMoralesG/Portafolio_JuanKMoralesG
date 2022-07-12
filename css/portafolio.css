@@ -1,0 +1,582 @@
+header{
+    background-color: #FFFFFF;
+    padding: 20px 0;
+}
+
+.caja{
+    position: relative;
+    margin: 0 auto;
+    width: 1180px;
+}
+
+.logo{
+    width: 25%;
+}
+
+nav{
+    position:absolute;
+    top: 15px;
+    right: 0;
+}
+
+nav li{
+    display:inline;
+    margin: 0 0 0 20px; 
+}
+
+nav a{
+    font-family: 'Trebuchet MS';
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:#29AAF3;
+}
+
+.correo{
+    display:inline;
+    margin: 0 0 0 20px;
+    font-family: 'Trebuchet MS';
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none; 
+}
+
+.correo:hover{
+    text-decoration: underline;
+}
+
+/*---------------------------------INTRO-----------------------------------*/
+
+.fondo{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.titulo{
+    position: absolute;
+    width: 821px;
+    height: 115px;
+    left: 69px;
+    top: 280px;
+    
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    color: #272D4E;    
+}
+
+.foto_perfil{
+    position: absolute;
+    width: 539.88px;
+    height: 473px;
+    left: 737.12px;
+    top: 135px;
+}
+
+.foto_perfil:hover{
+    transform: scale(1.02);
+}
+
+.subtitulo{
+    position: absolute;
+    width: 650px;
+    height: 90px;
+    left: 72px;
+    top: 400px;
+
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: justify;
+    color: #94A2B3;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 70px;
+    position: absolute;
+    width: 567px;
+    height: 24px;
+    left: 75px;
+    top: 600px;
+}
+
+.links a{
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    text-decoration: none; 
+    color: #272D4E;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 7px;
+    width: 100px;
+    height: 24px;
+}
+.links a:hover{
+    transform: scale(1.1);
+}
+
+/*---------------------------------SOBRE MI-----------------------------------*/
+
+.sobreMi{
+    position: relative;
+    margin: -5px auto;
+    width: 100%x;
+}
+
+.titulo_sobreMi{
+    position: absolute;
+    width: 696px;
+    height: 77px;
+    left: 333px;
+    top: 5px;
+
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 70px;
+    text-align: center;
+
+    color: #272D4E;
+}
+
+.texto_sobreMi{
+    position: absolute;
+    width: 1210px;
+    height: 224px;
+    left: 75px;
+    top: 90px;
+
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: justify;
+    color: #464646;
+}
+
+/*---------------------------------HABILIDADES-----------------------------------*/
+
+.habilidades{
+    position: relative;
+    margin: 0px auto;
+    width: 100%;
+}
+
+.tituloh{
+    position: absolute;
+    width: 696px;
+    height: 77px;
+    left: 333px;
+    top: 25px;
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 70px;
+    text-align: center;
+    color: #272D4E;
+}
+
+.img_h{
+    position: absolute;
+    width: 632px;
+    height: 442px;
+    left: 199px;
+    top: 138px;
+    background: url(coding-man.jpg);
+    border-radius: 20px;
+}
+
+.img_h:hover{
+    transform: scale(1.05);
+}
+
+.texto_h{
+    position: absolute;
+    width: 225px;
+    height: 335px;
+    left: 910px;
+    top: 150px;
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #29AAF3;
+}
+
+/*---------------------------------PASATIEMPOS-----------------------------------*/
+
+.pasatiempos{
+    position: relative;
+    margin: 0px auto;
+    width: 100%;
+}
+
+.titulo_p{
+    position: absolute;
+    width: 415px;
+    height: 69px;
+    left: 481px;
+    top: 80px;
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.texto_p{
+    position: absolute;
+    width: 494px;
+    height: 307px;
+    left: 121px;
+    top: 250px;
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.img_p{
+    position: absolute;
+    width: 496px;
+    height: 460.06px;
+    left: 720px;
+    top: 170px;
+}
+.img_p:hover{
+    transform: scale(1.05);
+}
+
+/*---------------------------------FORMACIÓN-----------------------------------*/
+
+.formacion{
+    position: relative;
+    margin: 0px auto;
+    width: 100%;
+}
+
+.fondo_f{
+    position: absolute;
+    width: 1340px;
+    height: 307.48px;
+    left: 0px;
+    top: 120px;
+}
+
+.titulof{
+    position: absolute;
+    width: 789px;
+    height: 56px;
+    left: 288px;
+    top: 30px;
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 70px;
+    text-align: center;
+    color: #272D4E;
+}
+
+.imgf1{
+    position: absolute;
+    width: 315px;
+    height: 344px;
+    left: 138px;
+    top: 160px;
+}
+
+.imgf2{
+    position: absolute;
+    width: 315px;
+    height: 344px;
+    left: 519px;
+    top:160px;
+}
+
+.imgf3{
+    position: absolute;
+    width: 315px;
+    height: 344px;
+    left: 899px;
+    top: 160px;
+}
+
+.imgf1:hover ,.imgf2:hover,.imgf3:hover{
+    transform: scale(1.1);
+}
+
+/*---------------------------------PROYECTOS-----------------------------------*/
+
+.fondo_p{
+    position: absolute;
+    width: 1340px;
+    height: 307.48px;
+    left: 0px;
+    top: 620px;
+}
+
+.titulop{
+    position: absolute;
+    width: 789px;
+    height: 56px;
+    left: 288px;
+    top: 540px;
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 70px;
+    text-align: center;
+    color: #272D4E;
+}
+
+.imgp1{
+    position: absolute;
+    width: 315px;
+    height: 344px;
+    left: 138px;
+    top: 680px;
+}
+
+.imgp2{
+    position: absolute;
+    width: 315px;
+    height: 344px;
+    left: 519px;
+    top: 680px;
+}
+
+.imgp3{
+    position: absolute;
+    width: 315px;
+    height: 351px;
+    left: 899px;
+    top: 680px;
+}
+
+.imgp1:hover ,.imgp2:hover,.imgp3:hover{
+    transform: scale(1.1);
+}
+
+/*---------------------------------CONTACTO-----------------------------------*/
+
+.contacto{
+    position: relative;
+    margin: 0px auto;
+    width: 100%;
+}
+
+.fondo_contacto{
+    position: absolute;
+    width: 1349.40px;
+    height: 763px;
+    left: 0px;
+    top: 1100px;
+}
+
+.titulo_contacto{
+    position: absolute;
+    width: 415px;
+    height: 69px;
+    left: 481px;
+    top: 1150px;
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.img_contacto{
+    position: absolute;
+    width: 523px;
+    height: 554.21px;
+    left: 79px;
+    top: 1250px;
+}
+.img_contacto:hover{
+    transform: scale(1.02);
+}
+
+.form_contacto{
+    position: absolute;
+    width: 654px;
+    height: 541px;
+    left: 636px;
+    top: 1200px;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 5px;
+}
+
+label{
+    display: block;
+    margin: 0 0 10px;
+    top: 100px;
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+input{
+    display: block;
+    margin: 0 0 10px;
+    padding: 10px 20px;
+    width: 600px;
+    height: 35px;
+    top: 80px;
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+}
+
+textarea{
+    margin: 0 0 10px;
+    padding: 10px 20px;
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+}
+
+.enviar{
+    position: absolute;
+    width: 267px;
+    height: 64px;
+    left: 636px;
+    top: 1730px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #29AAF3;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: orange;
+    color:#FFFFFF;
+}
+
+/*---------------------------------footer-----------------------------------*/
+
+.footer{
+    position: relative;
+    margin: 0px auto;
+    width: 100%;
+}
+
+.piePagina{
+    position: absolute;
+    width: 1349px;
+    height: 80px;
+    left: 0px;
+    top: 4375px;
+
+    background: #FFFFFF;
+}
+
+.links_footer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 70px;
+    position: absolute;
+    width: 567px;
+    height: 24px;
+    left: 100px;
+    top: 30px;
+}
+
+.links_footer a{
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    text-decoration: none; 
+    color: #272D4E;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 7px;
+    width: 100px;
+    height: 24px;
+}
+
+.links_footer a:hover{
+    transform: scale(1.1);
+}
+
+.des{
+    font-family: 'Trebuchet MS';
+    position: absolute;
+    width: 400px;
+    height: 23px;
+    left: 850px;
+    top: 30px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    color: #272D4E;
+}
+
+.des:hover{
+    transform: scale(1.1);
+}
+
